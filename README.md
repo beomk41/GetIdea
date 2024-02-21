@@ -178,12 +178,12 @@ Type 키워드 맨 앞글자는 대문자 사용  ( ex. Feat: ~ )
  - `WebRTC`(peer.js 화상회의, node server 구현), `Websocket`(문자채팅, 실시간 협업기능, node server 구현), `FrontEnd`(board 페이지 기능 구현)
 
 👤 **팀원 임현승**
- - `BackEnd`(mysql 관련 RESTful Api 제작 등), `FrontEnd 보조`(Template 및 튜토리얼 기능 구현)
+ - `BackEnd`(mysql 관련 RESTful Api 제작), `FrontEnd 보조`(Template 및 튜토리얼 기능 구현)
 
 👤 **팀원 박영규**
  - `BackEnd`(Database 설계, DB 서버 구축, WebSocket Server), `DevOps`(인프라 구축, 깃랩-젠킨스-EC2 파이프라인 구축)
 
 👤 **팀원 김범수**
- - `BackEnd`(Database 설계, Redis, MongoDB 관련 RESTful Api 제작, OAuth JWT 작업), `DevOps`(테스트 서버 지원)
+ - `BackEnd`( Database 설계, Mysql, Redis, MongoDB 관련 RESTful Api 제작, Social Login(OAuth, JWT, Spring Security) ), `DevOps`(테스트 서버 지원)
 
 ![](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=footer)

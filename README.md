@@ -165,7 +165,7 @@ Type 키워드 맨 앞글자는 대문자 사용  ( ex. Feat: ~ )
 | 태그     | API 설명            | URI                     | 상태 | 담당 (BE/FE) | BE 구현 | FE 구현 |
 |--------|-------------------|-------------------------|----|------------|-------|-------|
 | GET    | 사용자 검색            | /api/user/search        | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| PATCH  | "사용자 이름 "         | /api/user/rename        | 완료 | "김범수, 정연우" | Yes   | Yes   |
+| PATCH  | 사용자 이름 변경        | /api/user/rename        | 완료 | "김범수, 정연우" | Yes   | Yes   |
 | PUT    | 프로젝트 이름 변경        | /api/project/rename     | 완료 | "김범수, 정연우" | Yes   | Yes   |
 | POST   | 새 프로젝트 생성         | /api/project/make       | 완료 | "김범수, 정연우" | Yes   | Yes   |
 | POST   | 프로젝트 진행 사항 저장     | /api/project/change     | 완료 | "김범수, 강준규" | Yes   | Yes   |

@@ -162,7 +162,35 @@ Type 키워드 맨 앞글자는 대문자 사용  ( ex. Feat: ~ )
 > `mongoDB`와 `redis`는 NoSQL DB이기 때문에 컬렉션 구조와 다른 데이터베이스의 테이블과 맺는 관계를 ERD로 그리는 것은 어불성설이나, 개발자의 개발 편의를 위해 시각화해두었음을 밝힌다.
 
 ## 📌 API 명세서
-[API 설계](API.csv)
+| 태그     | API 설명            | URI                     | 상태 | 담당 (BE/FE) | BE 구현 | FE 구현 |
+|--------|-------------------|-------------------------|----|------------|-------|-------|
+| GET    | 사용자 검색            | /api/user/search        | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| PATCH  | "사용자 이름 "         | /api/user/rename        | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| PUT    | 프로젝트 이름 변경        | /api/project/rename     | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| POST   | 새 프로젝트 생성         | /api/project/make       | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| POST   | 프로젝트 진행 사항 저장     | /api/project/change     | 완료 | "범수, 준규 강" | Yes   | Yes   |
+| PATCH  | 작업 내용 병합          | /api/project/merge      | 완료 | "범수, 준규 강" | Yes   | Yes   |
+| GET    | 되돌리기 기능           | /api/project/rollback   | 완료 | "범수, 준규 강" | Yes   | Yes   |
+| GET    | 최근 프로젝트 불러오기 (7일) | /api/project/recent     | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| GET    | 전체 프로젝트 불러오기      | /api/project/all        | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| GET    | 폴더 내 프로젝트 불러오기    | /api/project/folder     | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| GET    | 기존 프로젝트 열기        | /api/project/open       | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| GET    | 북마크 된 프로젝트 불러오기   | /api/project/bookmarked | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| DELETE | 프로젝트 삭제           | /api/project/delete     | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| DELETE | 프로젝트 퇴장           | /api/project/close      | 완료 | "범수, 준규 강" | Yes   | Yes   |
+| POST   | 채팅 전송 - 로그 저장     | /api/chat/send          | 완료 | "범수, 준규 강" | Yes   | Yes   |
+| GET    | 채팅 로그 불러오기        | /api/chat/load          | 완료 | "범수, 준규 강" | Yes   | Yes   |
+| POST   | 새 폴더 생성           | /api/folder/create      | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| PATCH  | 폴더 이름 변경          | /api/folder/rename      | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| GET    | 폴더 검색             | /api/folder/search      | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| DELETE | 폴더 삭제             | /api/folder/remove      | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| POST   | 프로젝트 내 이미지 업로드    | /api/image/project      | 완료 | "범수, 준규 강" | Yes   | Yes   |
+| POST   | 프로젝트 썸네일 이미지 변경   | /api/image/thumbnail    | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| POST   | 프로필 이미지 변경        | /api/image/profile      | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| POST   | 프로젝트 유저 초대        | /api/location/invite    | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| PUT    | 프로젝트 위치 이동        | /api/location/move      | 완료 | "범수, 연우 정" | Yes   | Yes   |
+| PUT    | 프로젝트 북마크          | /api/location/bookmark  | 완료 | "범수, 연우 정" | Yes   | Yes   |
+
 ***
 
 ## 📌 Team '선' 보고 '후' 조치

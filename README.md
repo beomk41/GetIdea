@@ -85,7 +85,6 @@
 
 ### 🔷 Backend Convention
 
-- Git: 대표 컨벤션 그대로 사용 (위의 이미지)
 - Springboot-app: 클래스명은 파스칼 케이스, 그 외 카멜 케이스 사용
 - Database: RDB의 column 및 NoSQL 컬렉션의 key 값 모두 카멜 케이스 사용
 

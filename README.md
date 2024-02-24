@@ -159,32 +159,32 @@
 ## 📌 API 명세서
 | 태그     | API 설명            | URI                     | 상태 | 담당 (BE/FE) | BE 구현 | FE 구현 |
 |--------|-------------------|-------------------------|----|------------|-------|-------|
-| GET    | 사용자 검색            | /api/user/search        | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| PATCH  | 사용자 이름 변경        | /api/user/rename        | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| PUT    | 프로젝트 이름 변경        | /api/project/rename     | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| POST   | 새 프로젝트 생성         | /api/project/make       | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| POST   | 프로젝트 진행 사항 저장     | /api/project/change     | 완료 | "김범수, 강준규" | Yes   | Yes   |
-| PATCH  | 작업 내용 병합          | /api/project/merge      | 완료 | "김범수, 강준규" | Yes   | Yes   |
-| GET    | 되돌리기 기능           | /api/project/rollback   | 완료 | "김범수, 강준규" | Yes   | Yes   |
-| GET    | 최근 프로젝트 불러오기 (7일) | /api/project/recent     | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| GET    | 전체 프로젝트 불러오기      | /api/project/all        | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| GET    | 폴더 내 프로젝트 불러오기    | /api/project/folder     | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| GET    | 기존 프로젝트 열기        | /api/project/open       | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| GET    | 북마크 된 프로젝트 불러오기   | /api/project/bookmarked | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| DELETE | 프로젝트 삭제           | /api/project/delete     | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| DELETE | 프로젝트 퇴장           | /api/project/close      | 완료 | "김범수, 강준규" | Yes   | Yes   |
-| POST   | 채팅 전송 - 로그 저장     | /api/chat/send          | 완료 | "김범수, 강준규" | Yes   | Yes   |
-| GET    | 채팅 로그 불러오기        | /api/chat/load          | 완료 | "김범수, 강준규" | Yes   | Yes   |
-| POST   | 새 폴더 생성           | /api/folder/create      | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| PATCH  | 폴더 이름 변경          | /api/folder/rename      | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| GET    | 폴더 검색             | /api/folder/search      | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| DELETE | 폴더 삭제             | /api/folder/remove      | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| POST   | 프로젝트 내 이미지 업로드    | /api/image/project      | 완료 | "김범수, 강준규" | Yes   | Yes   |
-| POST   | 프로젝트 썸네일 이미지 변경   | /api/image/thumbnail    | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| POST   | 프로필 이미지 변경        | /api/image/profile      | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| POST   | 프로젝트 유저 초대        | /api/location/invite    | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| PUT    | 프로젝트 위치 이동        | /api/location/move      | 완료 | "김범수, 정연우" | Yes   | Yes   |
-| PUT    | 프로젝트 북마크          | /api/location/bookmark  | 완료 | "김범수, 정연우" | Yes   | Yes   |
+| GET    | 사용자 검색            | /api/user/search        | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| PATCH  | 사용자 이름 변경        | /api/user/rename        | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| PUT    | 프로젝트 이름 변경        | /api/project/rename     | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| POST   | 새 프로젝트 생성         | /api/project/make       | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| POST   | 프로젝트 진행 사항 저장     | /api/project/change     | 완료 | 김범수, 강준규 | Yes   | Yes   |
+| PATCH  | 작업 내용 병합          | /api/project/merge      | 완료 | 김범수, 강준규 | Yes   | Yes   |
+| GET    | 되돌리기 기능           | /api/project/rollback   | 완료 | 김범수, 강준규 | Yes   | Yes   |
+| GET    | 최근 프로젝트 불러오기 (7일) | /api/project/recent     | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| GET    | 전체 프로젝트 불러오기      | /api/project/all        | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| GET    | 폴더 내 프로젝트 불러오기    | /api/project/folder     | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| GET    | 기존 프로젝트 열기        | /api/project/open       | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| GET    | 북마크 된 프로젝트 불러오기   | /api/project/bookmarked | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| DELETE | 프로젝트 삭제           | /api/project/delete     | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| DELETE | 프로젝트 퇴장           | /api/project/close      | 완료 | 김범수, 강준규 | Yes   | Yes   |
+| POST   | 채팅 전송 - 로그 저장     | /api/chat/send          | 완료 | 김범수, 강준규 | Yes   | Yes   |
+| GET    | 채팅 로그 불러오기        | /api/chat/load          | 완료 | 김범수, 강준규 | Yes   | Yes   |
+| POST   | 새 폴더 생성           | /api/folder/create      | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| PATCH  | 폴더 이름 변경          | /api/folder/rename      | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| GET    | 폴더 검색             | /api/folder/search      | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| DELETE | 폴더 삭제             | /api/folder/remove      | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| POST   | 프로젝트 내 이미지 업로드    | /api/image/project      | 완료 | 김범수, 강준규 | Yes   | Yes   |
+| POST   | 프로젝트 썸네일 이미지 변경   | /api/image/thumbnail    | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| POST   | 프로필 이미지 변경        | /api/image/profile      | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| POST   | 프로젝트 유저 초대        | /api/location/invite    | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| PUT    | 프로젝트 위치 이동        | /api/location/move      | 완료 | 김범수, 정연우 | Yes   | Yes   |
+| PUT    | 프로젝트 북마크          | /api/location/bookmark  | 완료 | 김범수, 정연우 | Yes   | Yes   |
 
 ***
 
@@ -193,21 +193,51 @@
 > [🔗 Team Notion](https://galvanized-citron-903.notion.site/Get-iDEA-29c9eb0938454ad2a4dfe0035eb37c72?pvs=4)
 
 👤 **팀장 이지은**
- - `ProjectManager`(기획 및 GIT, Gerrit, Jira 등 활용 프로젝트 관리), `FrontEnd`(Template 및 튜토리얼 기획, 디자인 및 기능 구현)
+ - `ProjectManager`
+     - 기획 및 GIT, Gerrit, Jira 등 활용 프로젝트 관리
+ - `FrontEnd`
+     - Template 및 튜토리얼 기획, 디자인 및 기능 구현
 
 👤 **팀원 정연우**
- - `Designer`(UI), `FrontEnd`(Main, Login, board 등 페이지/컴포넌트 디자인 및 기능 구현)
+ - `Designer`
+     - UI
+ - `FrontEnd`
+     - Main, Login, board 등 페이지/컴포넌트 디자인 및 기능 구현
 
 👤 **팀원 강준규**
- - `WebRTC`(peer.js 화상회의, node server 구현), `Websocket`(문자채팅, 실시간 협업기능, node server 구현), `FrontEnd`(board 페이지 기능 구현)
+ - `WebRTC`
+     - peer.js 화상회의, node server 구현
+ - `Websocket`
+     - 문자채팅, 실시간 협업기능, node server 구현)
+ - `FrontEnd`
+     - board 페이지 기능 구현
 
 👤 **팀원 임현승**
- - `BackEnd`(mysql 관련 RESTful Api 제작), `FrontEnd 보조`(Template 및 튜토리얼 기능 구현)
+ - `BackEnd`
+     - mysql 관련 RESTful Api 개
+ - `FrontEnd 보조`
+     -Template 및 튜토리얼 기능 구현
 
 👤 **팀원 박영규**
- - `BackEnd`(Database 설계, DB 서버 구축, WebSocket Server), `DevOps`(인프라 구축, 깃랩-젠킨스-EC2 파이프라인 구축)
+ - `BackEnd`
+     - Database 설계
+     - DB 서버 구축
+     -  WebSocket Server
+ - `DevOps`
+     - 인프라 구축
+     - 깃랩-젠킨스-EC2 파이프라인 구축
 
 👤 **팀원 김범수**
- - `BackEnd`( Database 설계, Mysql, Redis, MongoDB 관련 RESTful Api 제작, Social Login(OAuth, JWT, Spring Security) ), `DevOps`(테스트 서버 지원)
+ - `BackEnd`
+     - 비즈니스 로직 설계 및 구현
+     - 서비스 로직 설계 및 구현
+     - Database 설계 및 관리
+     - MySQL, Redis, MongoDB 연동
+     - RESTful Api 제작
+     - Social Login을 활용한 인증 및 인가 시스템 구현 (OAuth, JWT, Spring Security - Googel, Kakao, Naver)
+ - `DevOps`
+     - 테스트 서버 지원
+ - `FrontEnd 보조`
+     - 비동기 통신 처리 보조 (Axios)
 
 ![](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=footer)

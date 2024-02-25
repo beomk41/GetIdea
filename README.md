@@ -124,9 +124,11 @@
 
 ***
 
-## 📌 Tech Stack
+## 📌 System Architecture
 
 ![img.png](resources/techstack.png)
+
+## 📌 Tech Stack
 
 ### 🔷 BackEnd
 

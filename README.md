@@ -215,9 +215,8 @@
      - board 페이지 기능 구현
 
 👤 **팀원 임현승**
- - `BackEnd`
-     - mysql 관련 RESTful Api 개
- - `FrontEnd 보조`
+ - `BackEnd, FrontEnd 보조`
+     - mysql 관련 RESTful Api 구현
      -Template 및 튜토리얼 기능 구현
 
 👤 **팀원 박영규**
@@ -231,15 +230,8 @@
 
 👤 **팀원 김범수**
  - `BackEnd`
-     - 비즈니스 로직 설계 및 구현
-     - 서비스 로직 설계 및 구현
      - Database 설계 및 관리
-     - MySQL, Redis, MongoDB 연동
      - RESTful Api 제작
      - Social Login을 활용한 인증 및 인가 시스템 구현 (OAuth, JWT, Spring Security - Googel, Kakao, Naver)
- - `DevOps`
-     - 테스트 서버 지원
- - `FrontEnd 보조`
-     - 비동기 통신 처리 보조 (Axios)
 
 ![](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=footer)
